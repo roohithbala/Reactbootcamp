@@ -3,6 +3,7 @@ import About from './components/About'
 import Counter from './components/Counter'
 import Disp from './components/Disp'
 import TitleUpdater from './components/Usereffect'
+import Timer from './components/Timer'
 const App = () => {
   return (
     <div>
@@ -15,6 +16,8 @@ const App = () => {
       <Disp/>
       <br />
       <TitleUpdater/>
+      <br />
+      <Timer/>
     </div>
   )
 }
