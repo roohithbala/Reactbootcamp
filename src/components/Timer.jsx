@@ -6,7 +6,7 @@ function Timer() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCount(prevCount => prevCount > 0 ? prevCount - 1 : 0);
-    }, 1000 ); 
+    }, 30 ); 
 
   
     return () => clearInterval(intervalId);
